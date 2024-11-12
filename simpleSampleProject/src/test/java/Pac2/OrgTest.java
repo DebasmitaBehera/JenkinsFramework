@@ -1,8 +1,10 @@
 package Pac2;
 
-public class OrgTest {
+import org.testng.annotations.Test;
 
-public static void main(String[] args) {
+public class OrgTest {
+@Test
+public void show() {
 	System.out.println("hi");
 	System.out.println("Hello");
 }

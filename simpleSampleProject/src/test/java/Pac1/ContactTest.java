@@ -1,8 +1,10 @@
 package Pac1;
 
-public class ContactTest {
+import org.testng.annotations.Test;
 
-public static void main(String[] args) {
+public class ContactTest {
+@Test
+public  void display() {
 	System.out.println("hello");
 }
 }
