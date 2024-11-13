@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class ContactTest {
 	
 	
-	@Test(groups = "regressiontest")
+	@Test(groups = "Regression")
 
 	public  void areg() {
 
@@ -14,7 +14,7 @@ public class ContactTest {
 	
 	
 	
-	@Test(groups = "regressiontest")
+	@Test(groups = "Regression")
 
 	public  void breg() {
 
@@ -22,7 +22,7 @@ public class ContactTest {
 	}
 	
 	
-@Test(groups = "smokeTest")
+@Test(groups = "Smoke")
 public  void asmoke() {
 	String URL = System.getProperty("url");
 	String BROWSER = System.getProperty("browser");
@@ -35,7 +35,7 @@ public  void asmoke() {
 	System.out.println("smoke test case executed1");
 }
 
-@Test(groups = "smokeTest")
+@Test(groups = "Smoke")
 public  void bsmoke() {
 	System.out.println("smoke test case executed2");
 	
