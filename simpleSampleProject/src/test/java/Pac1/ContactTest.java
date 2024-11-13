@@ -5,19 +5,19 @@ import org.testng.annotations.Test;
 public class ContactTest {
 	@Test(groups = "regressiontest")
 
-	public  void bdisplay1() {
+	public  void areg() {
 
 	System.out.println("regression test case executed1");
 	}
 	
 	@Test(groups = "regressiontest")
 
-	public  void bdisplay2() {
+	public  void breg() {
 
 	System.out.println("regression test case executed2");
 	}
 @Test(groups = "smokeTest")
-public  void adisplay() {
+public  void asmoke() {
 	String URL = System.getProperty("url");
 	String BROWSER = System.getProperty("browser");
 	String USERNAME = System.getProperty("username");
@@ -30,8 +30,8 @@ public  void adisplay() {
 }
 
 @Test(groups = "smokeTest")
-public  void cdisplay3() {
-	System.out.println("smoke test case executed4");
+public  void bsmoke() {
+	System.out.println("smoke test case executed2");
 	
 }
 
