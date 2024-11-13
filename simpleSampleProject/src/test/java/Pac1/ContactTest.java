@@ -9,6 +9,13 @@ public class ContactTest {
 
 	System.out.println("regression test case executed1");
 	}
+	
+	@Test(groups = "regressiontest")
+
+	public  void bdisplay2() {
+
+	System.out.println("regression test case executed2");
+	}
 @Test(groups = "smokeTest")
 public  void adisplay() {
 	String URL = System.getProperty("url");
