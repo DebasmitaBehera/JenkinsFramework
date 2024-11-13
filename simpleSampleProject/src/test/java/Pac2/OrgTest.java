@@ -24,4 +24,10 @@ public  void show1() {
 
 System.out.println("regression test case executed2");
 }
+@Test(groups = "smokeTest")
+public void show3() {
+	System.out.println("smoke test case executed3");
 }
+}
+
+
