@@ -3,6 +3,8 @@ package Pac1;
 import org.testng.annotations.Test;
 
 public class ContactTest {
+	
+	
 	@Test(groups = "regressiontest")
 
 	public  void areg() {
@@ -10,12 +12,16 @@ public class ContactTest {
 	System.out.println("regression test case executed1");
 	}
 	
+	
+	
 	@Test(groups = "regressiontest")
 
 	public  void breg() {
 
 	System.out.println("regression test case executed2");
 	}
+	
+	
 @Test(groups = "smokeTest")
 public  void asmoke() {
 	String URL = System.getProperty("url");
