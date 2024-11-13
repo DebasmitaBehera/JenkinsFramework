@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class OrgTest {
 @Test(groups = "smokeTest")
-public void show() {
+public void dshow() {
 	String URL = System.getProperty("url");
 	String BROWSER = System.getProperty("browser");
 	String USERNAME = System.getProperty("username");
@@ -20,12 +20,12 @@ public void show() {
 }
 @Test(groups = "regressiontest")
 
-public  void show1() {
+public  void eshow1() {
 
 System.out.println("regression test case executed2");
 }
 @Test(groups = "smokeTest")
-public void show3() {
+public void fshow3() {
 	System.out.println("smoke test case executed3");
 }
 }
