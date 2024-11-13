@@ -10,6 +10,7 @@ public class ContactTest {
 	public  void areg() {
 
 	System.out.println("regression test case executed1");
+	System.out.println("regression test case executed1");
 	}
 	
 	

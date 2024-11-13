@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T18:18:03 IST" name="Suite" finished-at="2024-11-13T18:18:04 IST" duration-ms="233">
+    <groups>
+      <group name="regressiontest">
+        <method signature="ContactTest.areg()[pri:0, instance:Pac1.ContactTest@2794eab6]" name="areg" class="Pac1.ContactTest"/>
+        <method signature="ContactTest.breg()[pri:0, instance:Pac1.ContactTest@2794eab6]" name="breg" class="Pac1.ContactTest"/>
+        <method signature="OrgTest.creg()[pri:0, instance:Pac2.OrgTest@750e2b97]" name="creg" class="Pac2.OrgTest"/>
+      </group> <!-- regressiontest -->
+      <group name="smokeTest">
+        <method signature="ContactTest.asmoke()[pri:0, instance:Pac1.ContactTest@2794eab6]" name="asmoke" class="Pac1.ContactTest"/>
+        <method signature="ContactTest.bsmoke()[pri:0, instance:Pac1.ContactTest@2794eab6]" name="bsmoke" class="Pac1.ContactTest"/>
+        <method signature="OrgTest.csmoke()[pri:0, instance:Pac2.OrgTest@750e2b97]" name="csmoke" class="Pac2.OrgTest"/>
+        <method signature="OrgTest.dsmoke()[pri:0, instance:Pac2.OrgTest@750e2b97]" name="dsmoke" class="Pac2.OrgTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-11-13T18:18:03 IST" name="Test" finished-at="2024-11-13T18:18:04 IST" duration-ms="233">
+      <class name="Pac2.OrgTest">
+        <test-method signature="creg()[pri:0, instance:Pac2.OrgTest@750e2b97]" started-at="2024-11-13T18:18:04 IST" name="creg" finished-at="2024-11-13T18:18:04 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creg -->
+        <test-method signature="csmoke()[pri:0, instance:Pac2.OrgTest@750e2b97]" started-at="2024-11-13T18:18:04 IST" name="csmoke" finished-at="2024-11-13T18:18:04 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- csmoke -->
+        <test-method signature="dsmoke()[pri:0, instance:Pac2.OrgTest@750e2b97]" started-at="2024-11-13T18:18:04 IST" name="dsmoke" finished-at="2024-11-13T18:18:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dsmoke -->
+      </class> <!-- Pac2.OrgTest -->
+      <class name="Pac1.ContactTest">
+        <test-method signature="areg()[pri:0, instance:Pac1.ContactTest@2794eab6]" started-at="2024-11-13T18:18:03 IST" name="areg" finished-at="2024-11-13T18:18:03 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areg -->
+        <test-method signature="asmoke()[pri:0, instance:Pac1.ContactTest@2794eab6]" started-at="2024-11-13T18:18:03 IST" name="asmoke" finished-at="2024-11-13T18:18:03 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asmoke -->
+        <test-method signature="breg()[pri:0, instance:Pac1.ContactTest@2794eab6]" started-at="2024-11-13T18:18:03 IST" name="breg" finished-at="2024-11-13T18:18:03 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- breg -->
+        <test-method signature="bsmoke()[pri:0, instance:Pac1.ContactTest@2794eab6]" started-at="2024-11-13T18:18:03 IST" name="bsmoke" finished-at="2024-11-13T18:18:03 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsmoke -->
+      </class> <!-- Pac1.ContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
