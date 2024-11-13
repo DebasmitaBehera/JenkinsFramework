@@ -3,7 +3,7 @@ package Pac2;
 import org.testng.annotations.Test;
 
 public class OrgTest {
-@Test(groups = "Smoke")
+@Test(groups = "smokeTest")
 public void csmoke() {
 	String URL = System.getProperty("url");
 	String BROWSER = System.getProperty("browser");
@@ -18,13 +18,13 @@ public void csmoke() {
 	System.out.println("Hello");
 	System.out.println("smoke test case executed3");
 }
-@Test(groups = "Regression")
+@Test(groups = "regressiontest")
 
 public  void creg() {
 
 System.out.println("regression test case executed3");
 }
-@Test(groups = "Smoke")
+@Test(groups = "smokeTest")
 public void dsmoke() {
 	System.out.println("smoke test case executed4");
 }
