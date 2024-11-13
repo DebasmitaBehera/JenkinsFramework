@@ -76,7 +76,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						
-						<suiteXmlFile>regressiontestng.xml</suiteXmlFile>
+						<suiteXmlFile>fullregressiontestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
