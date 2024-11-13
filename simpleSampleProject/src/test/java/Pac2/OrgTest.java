@@ -16,12 +16,12 @@ public void show() {
 	
 	System.out.println("hi");
 	System.out.println("Hello");
-	System.out.println("Hello2");
+	System.out.println("smoke test case executed2");
 }
 @Test(groups = "regressiontest")
 
 public  void show1() {
 
-System.out.println("hello2");
+System.out.println("regression test case executed2");
 }
 }

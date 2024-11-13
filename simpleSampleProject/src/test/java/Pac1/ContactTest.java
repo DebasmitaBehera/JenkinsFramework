@@ -13,12 +13,12 @@ public  void display() {
 	System.out.println(USERNAME);
 	System.out.println(BROWSER);
 	System.out.println(PASSWORD);
-	System.out.println("hello");
+	System.out.println("smoke test case executed1");
 }
 @Test(groups = "regressiontest")
 
 public  void display1() {
 
-System.out.println("hello");
+System.out.println("regression test case executed1");
 }
 }
