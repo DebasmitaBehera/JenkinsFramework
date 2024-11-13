@@ -3,7 +3,7 @@ package Pac2;
 import org.testng.annotations.Test;
 
 public class OrgTest {
-@Test
+@Test(groups = "smokeTest")
 public void show() {
 	String URL = System.getProperty("url");
 	String BROWSER = System.getProperty("browser");
@@ -17,5 +17,11 @@ public void show() {
 	System.out.println("hi");
 	System.out.println("Hello");
 	System.out.println("Hello2");
+}
+@Test(groups = "regressiontest")
+
+public  void show1() {
+
+System.out.println("hello2");
 }
 }

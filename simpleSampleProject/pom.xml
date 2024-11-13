@@ -66,7 +66,7 @@
 	</dependencies>
 	<profiles>
 	<profile>
-	<id>FRT</id>
+	<id>RT</id>
 	    <build>
 		    <plugins>
 			   <plugin>
@@ -76,7 +76,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						
-						<suiteXmlFile>FullRegressionTSest.xml</suiteXmlFile>
+						<suiteXmlFile>fullregressiontestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -97,7 +97,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						
-						<suiteXmlFile>SmokeTest.xml</suiteXmlFile>
+						<suiteXmlFile>Smoketestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
